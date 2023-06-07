@@ -20,15 +20,16 @@ let package = Package(
         .package(
             name: "Reachability",
             url: "https://github.com/StreamLayer/Reachability.swift.git",
-            .upToNextMajor(from: "1.0.0")
+            .upToNextMajor(from: "1.0.1")
         )
     ],
     targets: [
         .target(
             name: "RxReachability",
             dependencies: [
-                "RxSwift", "Reachability",
-                .product(name: "RxCocoa", package: "RxSwift")
+                "RxSwift",
+                .product(name: "RxCocoa", package: "RxSwift"),
+                .product(name: "ReachabilityLib", package: "Reachability")
         ]),
 
         // MARK: SwiftPM tests

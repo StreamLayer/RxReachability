@@ -23,7 +23,7 @@
 //
 
 import Foundation
-import Reachability
+import ReachabilityTar
 import RxCocoa
 import RxSwift
 
