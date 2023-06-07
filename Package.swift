@@ -19,7 +19,7 @@ let package = Package(
         .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "6.0.0")),
         .package(
             name: "Reachability",
-            url: "https://github.com/ashleymills/Reachability.swift",
+            url: "https://github.com/StreamLayer/Reachability.swift.git",
             .upToNextMajor(from: "5.1.0")
         )
     ],
