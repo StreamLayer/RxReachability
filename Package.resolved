@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "Reachability",
-        "repositoryURL": "https://github.com/ashleymills/Reachability.swift",
+        "repositoryURL": "https://github.com/StreamLayer/Reachability.swift.git",
         "state": {
           "branch": null,
-          "revision": "c01bbdf2d633cf049ae1ed1a68a2020a8bda32e2",
-          "version": "5.1.0"
+          "revision": "a81b7367f2c46875f29577e03a60c39cdfad0c8d",
+          "version": "1.0.0"
         }
       },
       {

@@ -20,7 +20,7 @@ let package = Package(
         .package(
             name: "Reachability",
             url: "https://github.com/StreamLayer/Reachability.swift.git",
-            .upToNextMajor(from: "5.1.0")
+            .upToNextMajor(from: "1.0.0")
         )
     ],
     targets: [
